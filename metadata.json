@@ -1,0 +1,5 @@
+{
+  "name": "Library Management System(Working properly)",
+  "description": "A modern, responsive web application to manage a library's book catalog, user information, and loan transactions. Users can search for books, view details, and borrow them.",
+  "requestFramePermissions": []
+}
