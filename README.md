@@ -72,12 +72,12 @@ The project is organized as a single-page React application.
 
 ## Setup and Running the Project
 
-This is a self-contained web application. No build steps are required.
+This project is set up to run in a modern development environment that supports ES modules and on-the-fly TypeScript (TSX) compilation.
 
-1.  **Open `index.html`**: This file contains the complete application and will run in any modern web browser.
+1.  **Run with a Development Server**: You cannot open `index.html` directly in your browser from the file system (`file://...`). You must serve the project folder using a local development server (like Vite, or the environment this project was created in). The server handles the compilation of `.tsx` files into JavaScript that the browser can understand.
 2.  **Login Credentials**: Use the following credentials from the mock data (`src/data/mockData.ts`):
     *   **Admin**:
-        *   Email: `admin@example.com`
+        *   Username: `admin`
         *   Password: `admin`
     *   **Student**:
         *   Email: `student@example.com`
